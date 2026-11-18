@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConvoAI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="icon" href="logo.png" type="image/png" />
+  </head>
+
+  <body>
+    <main class="page-wrapper">
+      <div class="top-banner-heading">
+        <h1>ConvoAI Assistant</h1>
+        <p>Fast • Mindful • Powered by 💙</p>
+      </div>
+
+      <div class="container">
+        <header class="chat-header">
+          <div class="bot-info">
+            <img src="logo.png" alt="ConvoAI Logo" class="bot-header-logo" />
+            <h3>ConvoAI</h3>
+          </div>
+        </header>
+
+        <div id="chatbox" class="chatbox"></div>
+
+        <div class="input-area">
+          <input
+            id="inputMessage"
+            type="text"
+            placeholder="Type a message..."
+            autocomplete="off"
+          />
+
+          <button id="sendBtn">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
